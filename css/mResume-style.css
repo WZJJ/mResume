@@ -16,7 +16,7 @@
 .mResume-Contact-information{
     width: 100%;
     height: 3rem;
-    background: rgba(0,0,0,0.5);
+    /*backgrosund: rgba(0,0,0,0.5);*/
     text-align: center;
 }
 .mResume-Contact-information-name{
@@ -25,9 +25,12 @@
 	border: 0px;
 }
 .mResume-Contact-information-contact{
-	font-size: .46rem;
+	font-size: .4rem;
 }
-
+.mResume-Contact-information-contact-span1{
+	color: #999;
+	display: inline-block;
+}
 
 
 
