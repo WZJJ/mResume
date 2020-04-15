@@ -43,7 +43,8 @@
 	height: 1.26rem;
 	line-height: 1.26rem;
 	padding-left: .35rem;
-	font-size: .46rem;
+	font-size: .56rem;
+	font-weight:bold;
 }
 .mResume-content-con{
 	width: 100%;
