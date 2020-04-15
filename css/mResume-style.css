@@ -1,4 +1,3 @@
-
 .mResume-BackgroundColor{
 	width: 100%;
 	height: 100%;
@@ -11,12 +10,11 @@
 }
 .mResume{
 	width: 100%;
-	height: 2000px;
+	height: auto;
 }
 .mResume-Contact-information{
     width: 100%;
     height: 3rem;
-    /*backgrosund: rgba(0,0,0,0.5);*/
     text-align: center;
 }
 .mResume-Contact-information-name{
@@ -25,18 +23,54 @@
 	border: 0px;
 }
 .mResume-Contact-information-contact{
-	font-size: .4rem;
+	font-size: .46rem;
 }
 .mResume-Contact-information-contact-span1{
 	color: #999;
 	display: inline-block;
 }
-
-
-
-
-
-
+/*  工作经历  */
+.mResume-content	{
+	width: 11.62rem;
+	height: 500px;
+	background: #fff;
+	margin: 0 auto;
+	border-radius: .4rem;
+	overflow: hidden;
+}
+.mResume-content-title{
+	width: 100%;
+	height: 1.26rem;
+	line-height: 1.26rem;
+	padding-left: .35rem;
+	font-size: .46rem;
+}
+.mResume-content-con{
+	width: 100%;
+	height: 300px;
+	margin-top: 1px;
+}
+.mResume-content-con-company-name-column{
+	width: 100%;
+	height: 1.1rem;	
+}
+.mResume-content-con-company-name{
+	width: 50%;
+	float: left;
+	color: #666;
+	font-size: .46rem;
+	font-weight: bold;
+	padding-left: .35rem;
+	display: inline-block;
+}
+.mResume-content-con-company-time{
+	width: 50%;
+	float: right;
+	font-size: .28rem;
+	color: #bfbfbf;
+	text-align: right;
+	padding-right: .35rem;
+}
 
 
 
