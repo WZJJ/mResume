@@ -33,11 +33,12 @@
 }*/
 /*  工作经历  */
 .mResume-content	{
-	width: 11.62rem;
+	width: 11.94rem;
 	height: auto;
 	margin: 0 auto;
 	border-radius: .4rem;
 	overflow: hidden;
+	margin-bottom:.4rem;
 }
 .mResume-content-title{
 	width: 100%;
@@ -80,7 +81,7 @@
 .mResume-content-con-description-of-job{
 	padding-left:.35rem;
 	padding-right:.35rem;
-	padding-bottom:.6rem;
+	padding-bottom:.35rem;
 	font-size: .46rem;
 }
 .mResume-content-con-description-of-job-position{
@@ -89,8 +90,22 @@
 }
 
 
-
-
+/*  footer-nav  */
+.footer-nav-box{
+	width:100%;
+	height:1.2rem;
+	overflow:hidden;
+	
+	position:fixed;
+	bottom: .23rem;
+}
+.footer-nav{
+	width:11.94rem;
+	height:100%;
+	background-color: rgba(0, 0, 0, 0.04);
+	margin:0 auto;
+	border-radius:100px;
+}
 
 
 
