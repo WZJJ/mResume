@@ -1,4 +1,4 @@
-.mResume-BackgroundColor{
+.mResume_BackgroundColor{
 	width: 100%;
 	height: 100%;
 	background:-webkit-linear-gradient(#ededed,#f7f7f7);
@@ -8,31 +8,30 @@
 	position: fixed;top: 0;left: 0;
 	z-index: -1;
 }
+
+
+
 .mResume{
 	width: 100%;
 	height: auto;
 }
-.mResume-Contact-information{
+.mResume_Contact_information{
     width: 100%;
     height: auto;
     text-align: center;
 }
-.mResume-Contact-information-name{
+.mResume_Contact_information_name{
 	font-size: .6rem;
 	padding-top: .9rem;
 	font-weight:bold;
 	margin-bottom: .2rem;
 }
-.mResume-Contact-information-contact{
+.mResume_Contact_information_contact{
 	font-size: .4rem;
 	margin-bottom:.6rem;
 }
-/*.mResume-Contact-information-contact-span1{
-	color: #999;
-	display: inline-block;
-}*/
 /*  工作经历  */
-.mResume-content	{
+.mResume_content	{
 	width: 11.94rem;
 	height: auto;
 	margin: 0 auto;
@@ -40,7 +39,7 @@
 	overflow: hidden;
 	margin-bottom:.4rem;
 }
-.mResume-content-title{
+.mResume_content_title{
 	width: 100%;
 	height: 1.26rem;
 	line-height: 1.26rem;
@@ -49,19 +48,19 @@
 	font-weight:bold;
 	background: #fff;
 }
-.mResume-content-con{
+.mResume_content_con{
 	width: 100%;
 	height: auto;
 	margin-top: 1px;background: #fff;
 }
-.mResume-content-con-company-name-time-column{
+.mResume_content_con_company_name_time_column{
 	width: 100%;
 	height: 1.5rem;
 	padding-top: .4rem;
 	padding-left:.35rem;
 	padding-right:.35rem;
 }
-.mResume-content-con-company-name{
+.mResume_content_con_company_name{
 	width: 50%;
 	float: left;
 	color: #666;
@@ -70,7 +69,7 @@
 	/*padding-left: .35rem;*/
 	display: inline-block;
 }
-.mResume-content-con-company-time{
+.mResume_content_con_company_time{
 	width: 50%;
 	float: right;
 	font-size: .3rem;
@@ -78,79 +77,30 @@
 	text-align: right;
 	/*padding-right: .35rem;*/
 }
-.mResume-content-con-description-of-job{
+.mResume_content_con_description_of_job{
 	padding-left:.35rem;
 	padding-right:.35rem;
 	padding-bottom:.35rem;
 	font-size: .46rem;
 }
-.mResume-content-con-description-of-job-position{
+.mResume_content_con_description_of_job_position{
 	font-size:.5rem;
 	color:#666;
 }
 
 
 /*  footer-nav  */
-.footer-nav-box{
+.footer_nav_box{
 	width:100%;
 	height:1.2rem;
 	overflow:hidden;
 	position:fixed;
-	bottom: .7rem;
+	bottom: .6rem;
 }
-.footer-nav{
+.footer_nav{
 	width:11.94rem;
 	height:100%;
 	background-color: rgba(0, 0, 0, 0.04);
 	margin:0 auto;
 	border-radius:100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
