@@ -61,25 +61,10 @@
 	box-shadow: 0 .08rem .15rem rgba(0,0,0,0.25);
 }
 
-/*  顶部行距  */
-.mResume_top_Line_spacing{
-	width: 100%;
-	height: 1.4rem;
-}
-
-
-
 .mResume{
 	width: 100%;
 	height: auto;
 }
-
-
-
-
-
-
-
 .mResume_Contact_information{
     width: 100%;
     height: auto;
@@ -98,20 +83,10 @@
 	line-height: 2.28rem;
 	font-size: .8rem;
 	font-weight:bold;
-	/*border-bottom: 1px solid rgba(0,0,0,0.05);*/
 }
-
-
-
-
-
-
-
-
-
 /*  工作经历  */
 .mResume_content	{
-	width: 100%;
+	width: 11.94rem;
 	height: auto;
 	margin: 0 auto;
 	border-radius: .4rem;
@@ -164,11 +139,7 @@
 	font-size:.5rem;
 	color:#666;
 }
-/*  底部行距  */
-.mResume_footer_Line_spacing{
-	width:100%;
-	height:1rem;
-}
+
 /*  footer-nav  */
 .mResume_footer_nav_box{
 	width:100%;
@@ -214,7 +185,6 @@
 .mResume_footer_nav4{
 	left: 8.62rem;
 }
-
 .mResume_footer_nav_backgroun_block{
 	width: 3.2rem;
 	height: .96rem;
@@ -226,6 +196,26 @@
 }
 
 
+
+
+/*  顶部行距  */
+.mResume_top_Line_spacing{
+	width: 100%;
+	height: 1.4rem;
+}
+/*  底部行距  */
+.mResume_footer_Line_spacing{
+	width:100%;
+	height:1rem;
+}
+/*  分割线  */
+.mResume_split_line{
+	width: 100%;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.04);
+	margin-top: .3rem;
+	margin-bottom: .3rem;
+}
 
 
 
