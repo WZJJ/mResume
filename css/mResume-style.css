@@ -26,8 +26,7 @@
 	height: .96rem;
 	background: rgba(0,0,0,0.1);
 	border-radius: .24rem;
-	margin-left: 1.69rem;
-	margin-right: 1.69rem;
+	margin: 0 auto;
 	margin-top: .22rem;
 }
 .mResume_Tab_resume,
@@ -39,7 +38,8 @@
 	margin-top: .06rem;
 	text-align: center;
 	line-height: .84rem;
-	font-size: 。4rem;
+	font-size: .4rem;
+	font-weight: bold;
 }
 .mResume_Tab_resume{
 	float: left;
