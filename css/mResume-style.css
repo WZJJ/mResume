@@ -239,34 +239,9 @@
 	font-size: .5rem;
 	font-size: 12px;
 }
-.mResume_top_Line_spacing_span1,
-.mResume_top_Line_spacing_span2,
-.mResume_top_Line_spacing_span3,
-.mResume_top_Line_spacing_span4,
-.mResume_top_Line_spacing_span5,
-.mResume_top_Line_spacing_span6{
+.mResume_top_Line_spacing_span{
 	display: inline-block;
-}
-.mResume_top_Line_spacing_span1{
-	color: #CC2D3E;
-}
-.mResume_top_Line_spacing_span2{
-	color: #D76B26;
-}
-.mResume_top_Line_spacing_span3{
-	color: #FFD203;
-}
-.mResume_top_Line_spacing_span4{
-	color: #169957;
-}
-.mResume_top_Line_spacing_span5{
-	color: #1FB5E0;
-}
-.mResume_top_Line_spacing_span6{
-	color: #155899;
-}
-.mResume_top_Line_spacing_span7{
-	color: #EF32D9;
+	color: rgba(0,0,0,0.45);
 }
 /*  底部行距  */
 .mResume_footer_Line_spacing{
