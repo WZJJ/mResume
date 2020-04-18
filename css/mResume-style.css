@@ -61,7 +61,11 @@
 	box-shadow: 0 .08rem .15rem rgba(0,0,0,0.25);
 }
 
-
+/*  顶部行距  */
+.mResume_top_Line_spacing{
+	width: 100%;
+	height: 1.4rem;
+}
 
 
 
@@ -69,24 +73,45 @@
 	width: 100%;
 	height: auto;
 }
+
+
+
+
+
+
+
 .mResume_Contact_information{
     width: 100%;
     height: auto;
     text-align: center;
 }
-.mResume_Contact_information_name{
-	font-size: .6rem;
-	padding-top: .9rem;
-	font-weight:bold;
-	margin-bottom: .2rem;
-}
 .mResume_Contact_information_contact{
+	width: 100%;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
 	font-size: .4rem;
-	margin-bottom:.6rem;
 }
+.mResume_Contact_information_name{
+	width: 100%;
+	height: 2.28rem;
+	line-height: 2.28rem;
+	font-size: .8rem;
+	font-weight:bold;
+	/*border-bottom: 1px solid rgba(0,0,0,0.05);*/
+}
+
+
+
+
+
+
+
+
+
 /*  工作经历  */
 .mResume_content	{
-	width: 11.94rem;
+	width: 100%;
 	height: auto;
 	margin: 0 auto;
 	border-radius: .4rem;
@@ -139,18 +164,21 @@
 	font-size:.5rem;
 	color:#666;
 }
-
-
+/*  底部行距  */
+.mResume_footer_Line_spacing{
+	width:100%;
+	height:1rem;
+}
 /*  footer-nav  */
-.footer_nav_box{
+.mResume_footer_nav_box{
 	width:100%;
 	height:1.2rem;
 	overflow:hidden;
 	position:fixed;
 	bottom: .5rem;
-
+	display: none;
 }
-.footer_nav{
+.mResume_footer_nav{
 	width:11.94rem;
 	height:100%;
 	background-color: rgba(0, 0, 0, 0.04);
@@ -161,9 +189,41 @@
     -ms-backdrop-filter: brightness(1) blur(30px);
     -moz-backdrop-filter: brightness(1) blur(30px);
     -webkit-backdrop-filter: brightness(1) blur(30px);
+    position: relative;
+}
+.mResume_footer_nav1,
+.mResume_footer_nav2,
+.mResume_footer_nav3,
+.mResume_footer_nav4{
+	width: 3.2rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	text-align: center;
+	position: absolute;
+	top: 0;
+}
+.mResume_footer_nav1{
+	left: .12rem;
+}
+.mResume_footer_nav2{
+	left: 2.95rem;
+}
+.mResume_footer_nav3{
+	left: 5.77rem;
+}
+.mResume_footer_nav4{
+	left: 8.62rem;
 }
 
-
+.mResume_footer_nav_backgroun_block{
+	width: 3.2rem;
+	height: .96rem;
+	background: rgba(0,0,0,0.25);
+	border-radius: 100px;
+	position: absolute;
+	top: .12rem;
+	left: .12rem;
+}
 
 
 
