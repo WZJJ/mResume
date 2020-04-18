@@ -105,7 +105,9 @@
 .mResume_content_con{
 	width: 100%;
 	height: auto;
-	margin-top: 1px;background: #fff;
+	margin-top: 1px;
+	background: #fff;
+	color: #444;
 }
 .mResume_content_con_company_name_time_column{
 	width: 100%;
@@ -117,7 +119,6 @@
 .mResume_content_con_company_name{
 	width: 50%;
 	float: left;
-	color: #666;
 	font-size: .46rem;
 	font-weight: bold;
 	display: inline-block;
@@ -134,11 +135,9 @@
 	padding-right:.35rem;
 	padding-bottom:.35rem;
 	font-size: .46rem;
-	color: #666;
 }
 .mResume_content_con_description_of_job_position{
 	font-size:.5rem;
-	color:#666;
 }
 
 /*  footer-nav  */
