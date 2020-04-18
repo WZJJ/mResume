@@ -206,6 +206,10 @@
 .mResume_top_Line_spacing{
 	width: 100%;
 	height: 1.4rem;
+	line-height: 1.4rem;
+	text-align: center;
+	color: rgba(0,0,0,0.25);
+	font-size: .5rem;
 }
 /*  底部行距  */
 .mResume_footer_Line_spacing{
