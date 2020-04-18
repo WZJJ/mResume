@@ -20,6 +20,7 @@
     -moz-backdrop-filter: brightness(1) blur(30px);
     -webkit-backdrop-filter: brightness(1) blur(30px);
     border-bottom: 1px solid rgba(0,0,0,0.05);
+    z-index: 2;
 }
 .mResume_Tab{
 	width: 9.04rem;
