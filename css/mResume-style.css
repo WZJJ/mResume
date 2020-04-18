@@ -137,7 +137,11 @@
 	font-size: .46rem;
 }
 .mResume_content_con_description_of_job_position{
-	font-size:.5rem;
+	background: rgba(0,0,0,0.035);
+	display: inline-block;
+	padding: .2rem;
+	border-radius: .2rem;
+	margin-bottom: .35rem;
 }
 
 /*  footer-nav  */
