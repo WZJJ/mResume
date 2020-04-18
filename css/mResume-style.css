@@ -148,6 +148,7 @@
 	overflow:hidden;
 	position:fixed;
 	bottom: .6rem;
+
 }
 .footer_nav{
 	width:11.94rem;
@@ -155,6 +156,11 @@
 	background-color: rgba(0, 0, 0, 0.04);
 	margin:0 auto;
 	border-radius:100px;
+	backdrop-filter: brightness(1) blur(30px);
+    -o-backdrop-filter: brightness(1) blur(30px);
+    -ms-backdrop-filter: brightness(1) blur(30px);
+    -moz-backdrop-filter: brightness(1) blur(30px);
+    -webkit-backdrop-filter: brightness(1) blur(30px);
 }
 
 
