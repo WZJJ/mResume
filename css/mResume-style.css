@@ -24,32 +24,42 @@
 .mResume_Tab{
 	width: 9.04rem;
 	height: .96rem;
+	overflow: hidden;
 	background: rgba(0,0,0,0.1);
 	border-radius: .24rem;
 	margin: 0 auto;
 	margin-top: .22rem;
+	position: relative;
 }
 .mResume_Tab_resume,
 .mResume_Tab_works{
 	width: 4.38rem;
 	height: .84rem;
-	background: #fff;
-	border-radius: .2rem;
-	margin-top: .06rem;
 	text-align: center;
 	line-height: .84rem;
 	font-size: .4rem;
 	font-weight: bold;
+	position: absolute;
+	top: .06rem;
 }
 .mResume_Tab_resume{
 	float: left;
-	margin-left: .06rem;
+	left: .06rem;
 }
 .mResume_Tab_works{
 	float: right;
-	margin-right: .06rem;
+	right: .06rem;
 }
-
+.mResume_Tab_backgroun_block{
+	width: 4.38rem;
+	height: .84rem;
+	position: absolute;
+	left: .06rem;
+	top: .06rem;
+	background: #fff;
+	border-radius: .2rem;
+	box-shadow: 0 0 .15rem rgba(0,0,0,0.25);
+}
 
 
 
