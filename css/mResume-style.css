@@ -8,6 +8,7 @@
 	position: fixed;top: 0;left: 0;
 	z-index: -1;
 }
+/*  选项卡  */
 .mResume_Tabbox{
 	width: 100%;
 	height: 1.4rem;
@@ -61,7 +62,20 @@
 	border-radius: .2rem;
 	box-shadow: 0 .08rem .15rem rgba(0,0,0,0.25);
 }
-
+/*  顶部行距 隐藏的签名  */
+.mResume_top_Line_spacing{
+	width: 100%;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	text-align: center;
+	color: rgba(0,0,0,0.25);
+	font-size: 12px;
+}
+.mResume_top_Line_spacing_span{
+	display: inline-block;
+	color: rgba(0,0,0,0.45);
+}
+/*  简历 样式 正式 开始  */
 .mResume{
 	width: 100%;
 	height: auto;
@@ -85,7 +99,7 @@
 	font-size: .8rem;
 	font-weight:bold;
 }
-/*  工作经历  */
+/*  内容  */
 .mResume_content	{
 	width: 11.94rem;
 	height: auto;
@@ -200,7 +214,7 @@
 	top: .12rem;
 	left: .12rem;
 }
-
+/*  感谢您的完整阅读 END  */
 .mResume_end{
 	text-align: center;
 	color: rgba(0,0,0,0.35);
@@ -208,47 +222,14 @@
 	padding-top: .35rem;
 	padding-bottom: .35rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  顶部行距  */
-.mResume_top_Line_spacing{
-	width: 100%;
-	height: 1.4rem;
-	line-height: 1.4rem;
-	text-align: center;
-	color: rgba(0,0,0,0.25);
-	font-size: .5rem;
-	font-size: 12px;
-}
-.mResume_top_Line_spacing_span{
-	display: inline-block;
-	color: rgba(0,0,0,0.45);
-}
 /*  底部行距  */
 .mResume_footer_Line_spacing{
 	width:100%;
 	height:1rem;
 }
+/*
+	小部件
+*/
 /*  分割线  */
 .mResume_split_line{
 	width: 100%;
@@ -262,6 +243,7 @@
 	color: rgba(0,0,0,0.35);
 	display: inline-block;
 }
+/*  蓝色 箭头  */
 .mResume_content_con_company_name_arrow1,
 .mResume_content_con_company_name_arrow2{
 	width: .4rem;
@@ -276,6 +258,26 @@
 .mResume_content_con_company_name_arrow2{
 	left: 5.7rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
