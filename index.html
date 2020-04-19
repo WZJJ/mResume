@@ -38,7 +38,8 @@
         <span class="mResume_top_Line_spacing_span">游戏</span>
         不可辜负
     </div>
-    <!-- 简历 内容 正式 开始 -->
+    <!-- 内容 正式 开始 -->
+    <!-- 简历 -->
     <div class="mResume">
         <!-- 联系方式 -->
         <div class="mResume_Contact_information">
@@ -240,6 +241,10 @@
             </div>
         </div>
     </div>
+    <!-- 作品 -->
+    <div class="mWorks">
+        
+    </div>
     <div class="mResume_end">
         感谢您的完整阅读<br> 
         E N D
@@ -254,5 +259,48 @@
             <div class="mResume_footer_nav4">教育背景</div>
         </div>
     </div>
+    <script type="text/javascript">
+        // 简历 按钮
+        let mResume_Tab_resume = document.getElementsByClassName('mResume_Tab_resume')[0];
+
+        // 作品 按钮
+        let mResume_Tab_works = document.getElementsByClassName('mResume_Tab_works')[0];
+
+        // 选项卡 背景色块
+        let mResume_Tab_backgroun_block = document.getElementsByClassName('mResume_Tab_backgroun_block')[0];
+
+        // 点击 作品 按钮
+        mResume_Tab_works.onclick = function(){
+            mResume_Tab_backgroun_block.style.transform = 'translate(4.53rem,0)';
+        };
+
+        // 点击 简历 按钮
+        mResume_Tab_resume.onclick = function(){
+            mResume_Tab_backgroun_block.style.transform = 'translate(0,0)';
+        };
+
+        // console.log(mResume_Tab_works);
+    </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
