@@ -43,6 +43,8 @@
 	font-weight: bold;
 	position: absolute;
 	top: .06rem;
+	border-radius: .2rem;
+	z-index: 1;
 }
 .mResume_Tab_resume{
 	float: left;
@@ -61,6 +63,7 @@
 	background: #fff;
 	border-radius: .2rem;
 	box-shadow: 0 .08rem .15rem rgba(0,0,0,0.25);
+	transition: transform .2806s;
 }
 /*  顶部行距 隐藏的签名  */
 .mResume_top_Line_spacing{
@@ -75,10 +78,11 @@
 	display: inline-block;
 	color: rgba(0,0,0,0.45);
 }
-/*  简历 样式 正式 开始  */
+/*  简历页 样式 开始  */
 .mResume{
 	width: 100%;
 	height: auto;
+	/*display: none;*/
 }
 .mResume_Contact_information{
     width: 100%;
@@ -99,7 +103,7 @@
 	font-size: .8rem;
 	font-weight:bold;
 }
-/*  内容  */
+/*  简历 内容 样式 开始  */
 .mResume_content	{
 	width: 11.94rem;
 	height: auto;
@@ -159,6 +163,16 @@
 	border-radius: .2rem;
 	margin-bottom: .35rem;
 }
+/*  作品页 样式 开始  */
+.mWorks{
+	width: 100%;
+	height: 100%;
+	background: rgba(23,123,123,0.3);
+	display: none;
+}
+
+
+
 
 /*  footer-nav  */
 .mResume_footer_nav_box{
