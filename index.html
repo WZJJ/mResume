@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title></title>
+<title>mResume</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="stylesheet" href="css/public.css">
@@ -242,8 +242,12 @@
         </div>
     </div>
     <!-- 作品 -->
-    <div class="mWorks">
-        
+    <div class="mResume_Works">
+        <div class="mResume_top_Line_spacing">
+            很高兴可以向您展示我的作品
+        </div>
+        <div class="mResume_Works_All_works"></div>
+        <div class="mResume_Works_Hand_Painted"></div>
     </div>
     <div class="mResume_end">
         感谢您的完整阅读<br> 
@@ -260,6 +264,12 @@
         </div>
     </div>
     <script type="text/javascript">
+        // 简历div
+        let mResume = document.getElementsByClassName('mResume')[0];
+
+        // 作品div
+        let mResume_Works = document.getElementsByClassName('mResume_Works')[0];
+
         // 简历 按钮
         let mResume_Tab_resume = document.getElementsByClassName('mResume_Tab_resume')[0];
 
@@ -272,11 +282,17 @@
         // 点击 作品 按钮
         mResume_Tab_works.onclick = function(){
             mResume_Tab_backgroun_block.style.transform = 'translate(4.53rem,0)';
+            mResume.style.display = 'none';
+            mResume_Works.style.display = 'block';
+            window.scrollTo(0, 0);
         };
 
         // 点击 简历 按钮
         mResume_Tab_resume.onclick = function(){
             mResume_Tab_backgroun_block.style.transform = 'translate(0,0)';
+            mResume.style.display = 'block';
+            mResume_Works.style.display = 'none';
+            window.scrollTo(0, 0);
         };
 
         // console.log(mResume_Tab_works);
