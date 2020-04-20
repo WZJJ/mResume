@@ -22,6 +22,7 @@
     -webkit-backdrop-filter: brightness(1) blur(30px);
     border-bottom: 1px solid rgba(0,0,0,0.05);
     z-index: 2;
+
 }
 .mResume_Tab{
 	width: 9.04rem;
@@ -32,6 +33,7 @@
 	margin: 0 auto;
 	margin-top: .22rem;
 	position: relative;
+	/*display:none;*/
 }
 .mResume_Tab_resume,
 .mResume_Tab_works{
@@ -78,11 +80,12 @@
 	display: inline-block;
 	color: rgba(0,0,0,0.45);
 }
+/********************/
 /*  简历页 样式 开始  */
+/********************/
 .mResume{
 	width: 100%;
 	height: auto;
-	/*display: none;*/
 }
 .mResume_Contact_information{
     width: 100%;
@@ -164,13 +167,23 @@
 	border-radius: .2rem;
 	margin-bottom: .35rem;
 }
+/********************/
 /*  作品页 样式 开始  */
-.mWorks{
+/********************/
+.mResume_Works{
 	width: 100%;
-	height: 100%;
+	height: auto;
 	display: none;
 }
-
+.mResume_Works_All_works,
+.mResume_Works_Hand_Painted{
+	width: 11.22rem;
+	height: 13.8rem;
+	background: #fff;
+	border-radius: .4rem;
+	margin: 0 auto .9rem;
+	box-shadow: 0 0 .5rem rgba(0,0,0,0.1);
+}
 
 
 
