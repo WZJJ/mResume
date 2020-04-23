@@ -33,7 +33,7 @@
 	margin: 0 auto;
 	margin-top: .22rem;
 	position: relative;
-	display:none;
+	/*display:none;*/
 }
 .mResume_Tab_resume,
 .mResume_Tab_works{
@@ -187,7 +187,6 @@
 	overflow: hidden;
 	position: relative;
 }
-
 .mResume_Works_All_works_BackgroundVideo{
 	width: 11.22rem;
 	height: 14.96rem;
@@ -199,11 +198,10 @@
 .mResume_Works_All_works_Headline,
 .mResume_Works_All_works_timetext{
 	color: #fff;
-	
 	position: absolute;
 	left: .6rem;
+	mix-blend-mode: exclusion;
 }
-
 .mResume_Works_All_works_subtitle{
 	font-size: .44rem;
 	font-weight: bold;
@@ -218,6 +216,7 @@
 }
 .mResume_Works_All_works_timetext{
 	font-size: .37rem;
+	/*font-weight:300;*/
 	bottom: .44rem;
 	text-shadow: 0 0 .37rem rgba(0,0,0,0.35);
 }
