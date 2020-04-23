@@ -109,7 +109,7 @@
 }
 /*  简历 内容 样式 开始  */
 .mResume_content	{
-	width: 11.94rem;
+	width: 11.62rem;
 	height: auto;
 	margin: 0 auto;
 	border-radius: .4rem;
@@ -178,8 +178,8 @@
 }
 .mResume_Works_All_works,
 .mResume_Works_Hand_Painted{
-	width: 11.22rem;
-	height: 14.96rem;
+	width: 11.62rem;
+	height: 14.29rem;
 	background: #fff;
 	border-radius: .4rem;
 	margin: 0 auto .9rem;
@@ -188,7 +188,7 @@
 	position: relative;
 }
 /*  video标签不理想  */
-.mResume_Works_All_works_BackgroundVideo{
+/*.mResume_Works_All_works_BackgroundVideo{
 	width:100%;
 	height:auto;
 	border-radius:.4rem;
@@ -196,9 +196,9 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-}
+}*/
 /*  也不是很理想还不如video呢  */
-/*.mResume_Works_All_works_Slides{
+.mResume_Works_All_works_Slides{
 	width:100%;
 	height: 100%;
 	animation: mResume_Works_All_works_Slides 35s linear infinite;
@@ -237,7 +237,11 @@
 	93.75%{background:url('../images/mWorks_Page_iMages/mResume_Works_All_works_Slides/mResume_Works_All_works_Slides_16.jpg') no-repeat;background-size: 100%;transform: scale(1,1);}
 	   98%{background:url('../images/mWorks_Page_iMages/mResume_Works_All_works_Slides/mResume_Works_All_works_Slides_16.jpg') no-repeat;background-size: 100%;}
 	  100%{background:url('../images/mWorks_Page_iMages/mResume_Works_All_works_Slides/mResume_Works_All_works_Slides_17.jpg') no-repeat;background-size: 100%;transform: scale(1.3,1.3);}
-}*/
+}
+.mResume_Works_All_works_img{
+	width: 100%;
+	height: auto;
+}
 .mResume_Works_All_works_subtitle,
 .mResume_Works_All_works_Headline,
 .mResume_Works_All_works_timetext{
