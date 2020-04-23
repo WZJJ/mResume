@@ -247,22 +247,21 @@
             很高兴可以向您展示我的作品
         </div>
         <div class="mResume_Works_All_works">
-            <view style="border-radius:.4rem;overflow:hidden;">
-                <video 
-                    class="mResume_Works_All_works_BackgroundVideo" 
-                    src="video/mResume-ZuoPin-video.mp4" 
-                    muted 
-                    loop 
-                    autoplay 
-                    playsinline 
-                    webkit-playsinline 
-                    x5-playsinline 
-                    x-webkit-airplay="true" 
-                    x5-video-player-type="h5" 
-                    x5-video-player-fullscreen="" 
-                    x5-video-orientation
-                ></video>
-            </view>
+            <video 
+                id="mResume_Works_All_works_BackgroundVideo" 
+                class="mResume_Works_All_works_BackgroundVideo" 
+                src="video/mResume-ZuoPin-video.mp4" 
+                muted 
+                loop 
+                autoplay 
+                playsinline 
+                webkit-playsinline 
+                x5-playsinline 
+                x-webkit-airplay="true" 
+                x5-video-player-type="h5" 
+                x5-video-player-fullscreen="" 
+                x5-video-orientation
+            ></video>
             <!-- <div class="mResume_Works_All_works_Slides"></div> -->
             <!-- <div class="mResume_Works_All_works_subtitle">时间倒序</div> -->
             <div class="mResume_Works_All_works_Headline">设计作品</div>
@@ -274,6 +273,11 @@
             <div class="mResume_Works_All_works_timetext">更新于&nbsp;2020&nbsp;年&nbsp;04&nbsp;月&nbsp;22&nbsp;日</div>
         </div>
     </div>
+    <script>
+        document.addEventListener("WeixinJSBridgeReady",function(){ 
+            document.getElementById("mResume_Works_All_works_BackgroundVideo").play();
+        },false);
+    </script>
     <div class="mResume_end">
         感谢您的完整阅读<br> 
         E N D
