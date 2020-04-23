@@ -1,8 +1,17 @@
 *{margin: 0;padding: 0;box-sizing: border-box;}
 body,html{width:100%;height:100%;}
+@font-face{
+    font-family:NotoSansSC;
+    src:url('../fonts/NotoSansSC-Black.otf');
+    src:url('../fonts/NotoSansSC-Bold.otf');
+    src:url('../fonts/NotoSansSC-Light.otf');
+    src:url('../fonts/NotoSansSC-Medium.otf');
+    src:url('../fonts/NotoSansSC-Regular.otf');
+    src:url('../fonts/NotoSansSC-Thin.otf');
+}
 body{
     font-size: 14px;
-    font-family: MicrosoftYahei,"Lucida Grande",Verdana,Lucida,Arial,Helvetica,simsun,sans-serif;
+    font-family: NotoSansSC,MicrosoftYahei,"Lucida Grande",Verdana,Lucida,Arial,Helvetica,simsun,sans-serif;
     color:#333;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
