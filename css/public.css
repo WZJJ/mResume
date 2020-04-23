@@ -12,7 +12,7 @@ body,html{width:100%;height:100%;}
 body{
     font-size: 14px;
     /*font-family: NotoSansSC,MicrosoftYahei,"Lucida Grande",Verdana,Lucida,Arial,Helvetica,simsun,sans-serif;*/
-    font-family: MicrosoftYahei,"Lucida Grande",Verdana,Lucida,Arial,Helvetica,simsun,sans-serif;
+    font-family: Microsoft YaHei,"Lucida Grande",Verdana,Lucida,Arial,Helvetica,simsun,sans-serif;
     color:#333;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
