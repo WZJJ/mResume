@@ -33,7 +33,7 @@
 	margin: 0 auto;
 	margin-top: .22rem;
 	position: relative;
-	/*display:none;*/
+	display:none;
 }
 .mResume_Tab_resume,
 .mResume_Tab_works{
@@ -86,6 +86,7 @@
 .mResume{
 	width: 100%;
 	height: auto;
+	display: none;
 }
 .mResume_Contact_information{
     width: 100%;
@@ -173,7 +174,7 @@
 .mResume_Works{
 	width: 100%;
 	height: auto;
-	display: none;
+	/*display: none;*/
 }
 .mResume_Works_All_works,
 .mResume_Works_Hand_Painted{
@@ -183,9 +184,43 @@
 	border-radius: .4rem;
 	margin: 0 auto .9rem;
 	box-shadow: 0 0 .5rem rgba(0,0,0,0.1);
+	overflow: hidden;
+	position: relative;
 }
 
+.mResume_Works_All_works_BackgroundVideo{
+	width: 11.22rem;
+	height: 14.96rem;
+	position: absolute;
+	left: 0;
+	top: -0.58rem;
+}
+.mResume_Works_All_works_subtitle,
+.mResume_Works_All_works_Headline,
+.mResume_Works_All_works_timetext{
+	color: #fff;
+	
+	position: absolute;
+	left: .6rem;
+}
 
+.mResume_Works_All_works_subtitle{
+	font-size: .44rem;
+	font-weight: bold;
+	top: .54rem;
+	text-shadow: 0 0 .44rem rgba(0,0,0,0.25);
+}
+.mResume_Works_All_works_Headline{
+	font-size: .84rem;
+	font-weight: bold;
+	top: 1.28rem;
+	text-shadow: 0 0 .84rem rgba(0,0,0,0.25);
+}
+.mResume_Works_All_works_timetext{
+	font-size: .37rem;
+	bottom: .44rem;
+	text-shadow: 0 0 .37rem rgba(0,0,0,0.35);
+}
 
 /*  footer-nav  */
 .mResume_footer_nav_box{
