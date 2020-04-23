@@ -190,8 +190,8 @@
 .mResume_Works_All_works_BackgroundVideo{
 	width: 11.22rem;
 	height: 14.96rem;
-	border-radius:.4rem;
-	overflow:hidden;
+	/*border-radius:.4rem;*/
+	/*overflow:hidden;*/
 	position: absolute;
 	left: 0;
 	top: -0.58rem;
