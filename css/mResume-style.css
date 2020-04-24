@@ -357,39 +357,91 @@
 		transform:translate(0,-22.34rem);
 	}
 }
-.mResume_Works_All_works_subtitle,
-.mResume_Works_All_works_Headline,
-.mResume_Works_All_works_timetext{
+.mResume_Works_All_works_Headline{
 	color: #fff;
 	position: absolute;
-	left: .6rem;
+	left: .63rem;
 	/*mix-blend-mode: exclusion;*/
 }
-.mResume_Works_All_works_subtitle{
-	font-size: .44rem;
+.mResume_Works_All_works_Headline,
+.mResume_Works_Hand_Painted_Headline{
+	font-size: 1.3rem;
 	font-weight: bold;
-	top: .54rem;
-	/*text-shadow: 0 0 .44rem rgba(0,0,0,0.25);*/
+	bottom: 3rem;
+	text-shadow: .08rem .08rem .05rem rgba(0, 0, 0, 0.5);
 }
-.mResume_Works_All_works_Headline{
-	font-size: .84rem;
-	/*font-size: 1rem;*/
+.mResume_Works_All_works_enter{
+	width: 100%;
+	height: 2.37rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: rgb(255,255,255,0.1);
+	backdrop-filter: brightness(1.2) blur(30px);
+    -o-backdrop-filter: brightness(1.2) blur(30px);
+    -ms-backdrop-filter: brightness(1.2) blur(30px);
+    -moz-backdrop-filter: brightness(1.2) blur(30px);
+    -webkit-backdrop-filter: brightness(1.2) blur(30px);
+}
+.mResume_Works_All_works_enter_inputbox{
+	width: 2.79rem;
+	height: 100%;
+	float:right;
+}
+.mResume_Works_All_works_enter_input{
+	width: 2.16rem;
+	height: .84rem;
+	text-align: center;
+	line-height: .84rem;
+	background: #fff;
+	border-radius: 100px;
+	margin-top: .77rem;
+	font-size: .4rem;
 	font-weight: bold;
-	/*top: 1.28rem;*/
-	top: .6rem;
-	text-shadow: 0 0 .84rem rgba(0,0,0,0.45),0 0 .05rem rgba(0, 0, 0, 0.5);
-	/*background:url('../images/mWorks_Page_iMages/mResume_Works_All_works_img/mResume_Works_All_works_img_left.png') no-repeat;
-	background-origin: border-box;*/
-	/*设置裁剪背景 以 文字背景裁剪*/
-    /*-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
+	color: #007AFF;
 }
 .mResume_Works_All_works_timetext{
+	width: 8.43rem;
+	height: 100%;
+	float:left;
 	font-size: .37rem;
-	/*font-weight:300;*/
-	bottom: .44rem;
-	text-shadow: 0 0 .37rem rgba(0,0,0,0.35),0 0 .05rem rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding-left: .63rem;
+	line-height: 2.37rem;
+	text-shadow: 0 0 .5rem rgba(0,0,0,0.35),0 0 .2rem rgba(0, 0, 0, 0.35);
 }
+
+
+
+
+
+.mResume_Works_Hand_Painted_img{
+	width: 100%;
+	height: 100%;
+	border-radius: .4rem;
+	/*  
+		在border-radius后面添加transform: translateY(0);
+		解决iOS下使用transform动画后border-radius失效的问题
+	*/
+	transform: translateY(0);
+	-o-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  footer-nav  */
 .mResume_footer_nav_box{
