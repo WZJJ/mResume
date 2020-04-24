@@ -192,6 +192,8 @@
 	height: 100%;
 	border-radius: .4rem;
 	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+ 	-moz-backface-visibility: hidden;
 }
 .mResume_Works_All_works_img_left,
 .mResume_Works_All_works_img_center,
