@@ -14,7 +14,7 @@
 	height: 1.4rem;
 	position: fixed;
 	left: 0;top: 0;
-	background: rgb(255,255,255,0.9);
+	background: rgb(255,255,255,0.5);
 	backdrop-filter: brightness(1.5) blur(30px);
     -o-backdrop-filter: brightness(1.5) blur(30px);
     -ms-backdrop-filter: brightness(1.5) blur(30px);
