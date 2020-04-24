@@ -182,7 +182,7 @@
 	height: 15.49rem;
 	background: #fff;
 	border-radius: .4rem;
-	transform: translateY(0); 
+	transform: translateY(0); /*  解决iOS下使用transform动画后border-radius失效的问题  */
 	overflow: hidden;
 	margin: 0 auto .9rem;
 	box-shadow: 0 0 .5rem rgba(0,0,0,0.1);
@@ -191,13 +191,13 @@
 .mResume_Works_All_works_img{
 	width: 100%;
 	height: 100%;
-	/*border-radius: .4rem;
+	border-radius: .4rem;
 	transform: translateY(0);
 	-o-transform: translateY(0);
 	-ms-transform: translateY(0);
 	-moz-transform: translateY(0);
 	-webkit-transform: translateY(0);
-	overflow: hidden;*/ 
+	overflow: hidden; 
 }
 .mResume_Works_All_works_img_left,
 .mResume_Works_All_works_img_center,
