@@ -186,6 +186,9 @@
 	margin: 0 auto .9rem;
 	box-shadow: 0 0 .5rem rgba(0,0,0,0.1);
 	position: relative;
+	-webkit-backface-visibility: hidden;
+ 	-moz-backface-visibility: hidden;
+ 	-webkit-appearance:none;
 }
 .mResume_Works_All_works_img{
 	width: 100%;
