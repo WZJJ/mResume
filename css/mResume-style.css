@@ -377,10 +377,10 @@
 	font-weight: bold;
 	/*top: 1.28rem;*/
 	top: .6rem;
-	text-shadow: 0 0 .84rem rgba(0,0,0,0.45),.05rem .05rem .05rem rgba(0, 0, 0, 0.5);
+	text-shadow: 0 0 .84rem rgba(0,0,0,0.45),0 0 .05rem rgba(0, 0, 0, 0.5);
 	/*background:url('../images/mWorks_Page_iMages/mResume_Works_All_works_img/mResume_Works_All_works_img_left.png') no-repeat;
 	background-origin: border-box;*/
-	/*设置裁剪背景 以 文件背景裁剪*/
+	/*设置裁剪背景 以 文字背景裁剪*/
     /*-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;*/
 }
