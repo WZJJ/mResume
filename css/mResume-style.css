@@ -186,7 +186,7 @@
 	transform: translateY(0); 
 	overflow: hidden;
 	margin: 0 auto .9rem;
-	box-shadow: 0 0 .5rem rgba(0,0,0,0.1);
+	box-shadow: 0 0 .5rem rgba(0,0,0,0.25);
 	position: relative;
 }
 .mResume_Works_All_works_img{
@@ -362,19 +362,19 @@
 	color: #fff;
 	font-size: 1.3rem;
 	font-weight: bold;
-	/*text-shadow: .03rem .03rem .05rem rgba(0, 0, 0, 0.5);*/
+	text-shadow: .04rem .04rem .05rem rgba(0, 0, 0, 0.25),.1rem .1rem .05rem rgba(0, 0, 0, 0.25);
 	position: absolute;
 	left: .63rem;
 	bottom: 3rem;
 	/*mix-blend-mode: exclusion;*/
-	padding: .1rem;
+	/*padding: .1rem;
 	background: rgb(0,0,0,0.05);
 	backdrop-filter: brightness(1) blur(30px);
     -o-backdrop-filter: brightness(1) blur(30px);
     -ms-backdrop-filter: brightness(1) blur(30px);
     -moz-backdrop-filter: brightness(1) blur(30px);
     -webkit-backdrop-filter: brightness(1) blur(30px);
-    border-radius: .4rem;
+    border-radius: .4rem;*/
     /*border:1px solid #fff;*/
 }
 .mResume_Works_All_works_enter{
@@ -411,12 +411,14 @@
 	width: 8.43rem;
 	height: 100%;
 	float:left;
-	font-size: 1.3rem;
-	font-weight: bold;
+	font-size: .37rem;
 	color: #fff;
 	padding-left: .63rem;
 	line-height: 2.37rem;
 }
+
+
+
 
 
 
@@ -433,6 +435,7 @@
 	transform: translateY(0); 
 	overflow: hidden;
 	margin: 0 auto .9rem;
+	box-shadow: 0 0 .5rem rgba(0,0,0,0.25);
 	position: relative;
 }
 .mResume_Works_Hand_Painted_img{
@@ -505,7 +508,7 @@
 	height: 100%;
 	float:left;
 	font-size: .37rem;
-	color: #333;
+	color: rgba(0,0,0,0.5);
 	padding-left: .63rem;
 	line-height: 2.37rem;
 }
