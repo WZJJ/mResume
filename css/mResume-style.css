@@ -1,15 +1,4 @@
-/*  背景颜色 固定  */
-.mResume_BackgroundColor{
-	width: 100%;
-	height: 100%;
-	background: #EFF0F7;
-	/*background:-webkit-linear-gradient(#ededed,#f7f7f7);
-	background:-o-linear-gradient(#ededed,#f7f7f7);
-	background:-moz-linear-gradient(#ededed,#f7f7f7);
-	background:linear-gradient(#ededed,#f7f7f7);*/
-	position: fixed;top: 0;left: 0;
-	z-index: -1;
-}
+
 /*  选项卡  */
 .mResume_Tabbox{
 	width: 100%;
@@ -35,7 +24,6 @@
 	margin: 0 auto;
 	margin-top: .22rem;
 	position: relative;
-	/*display:none;*/
 }
 .mResume_Tab_resume,
 .mResume_Tab_works{
@@ -88,7 +76,6 @@
 .mResume{
 	width: 100%;
 	height: auto;
-	display: none;
 }
 .mResume_Contact_information{
     width: 100%;
@@ -170,13 +157,36 @@
 	border-radius: .2rem;
 	margin-bottom: .35rem;
 }
+.mResume_content_see_more{
+	width: 100%;
+	height: 2rem;
+	background: rgba(255,255,255,0.7);
+	overflow: hidden;
+}
+.mResume_content_see_more_input{
+	width: 3.3rem;
+	height: .6rem;
+	line-height: .6rem;
+	font-size: .46rem;
+	font-weight: bold;
+	margin: 0 auto;
+	margin-top: .7rem;
+	position: relative;
+}
+.mResume_content_see_more_arrow{
+	width: .4rem;
+	height: .4rem;
+	position: absolute;
+	right: 0;
+	top: .1rem;
+}
 /********************/
 /*  作品页 样式 开始  */
 /********************/
 .mResume_Works{
 	width: 100%;
 	height: auto;
-	/*display: none;*/
+	display: none;
 }
 .mResume_Works_All_works{
 	width: 11.62rem;
@@ -358,25 +368,18 @@
 		transform:translate(0,-22.34rem);
 	}
 }
-.mResume_Works_All_works_Headline{
+.mResume_Works_All_works_Headline,
+.mResume_Works_Hand_Painted_Headline{
 	color: #fff;
 	font-size: 1.3rem;
 	font-weight: bold;
-	text-shadow: .04rem .04rem .05rem rgba(0, 0, 0, 0.25),.1rem .1rem .05rem rgba(0, 0, 0, 0.25);
 	position: absolute;
 	left: .63rem;
 	bottom: 3rem;
-	/*mix-blend-mode: exclusion;*/
-	/*padding: .1rem;
-	background: rgb(0,0,0,0.05);
-	backdrop-filter: brightness(1) blur(30px);
-    -o-backdrop-filter: brightness(1) blur(30px);
-    -ms-backdrop-filter: brightness(1) blur(30px);
-    -moz-backdrop-filter: brightness(1) blur(30px);
-    -webkit-backdrop-filter: brightness(1) blur(30px);
-    border-radius: .4rem;*/
-    /*border:1px solid #fff;*/
+	text-shadow: 0 0 1rem rgba(0, 0, 0, 0.35),0 0 .2rem rgba(0,0,0,0.35);
+
 }
+
 .mResume_Works_All_works_enter{
 	width: 100%;
 	height: 2.37rem;
@@ -417,16 +420,6 @@
 	padding-left: .63rem;
 	line-height: 2.37rem;
 }
-
-
-
-
-
-
-
-
-
-
 .mResume_Works_Hand_Painted{
 	width: 11.62rem;
 	height: 15.49rem;
@@ -477,28 +470,6 @@
 	margin-right: .15rem;
 }
 
-
-
-
-
-
-.mResume_Works_Hand_Painted_Headline{
-	/*color: #fff;
-	font-size: 1.3rem;
-	font-weight: bold;
-	mix-blend-mode: exclusion;
-	position: absolute;
-	left: .63rem;
-	bottom: 3rem;*/
-
-	color: #fff;
-	font-size: 1.3rem;
-	font-weight: bold;
-	text-shadow: .04rem .04rem .05rem rgba(0, 0, 0, 0.25),.1rem .1rem .05rem rgba(0, 0, 0, 0.25);
-	position: absolute;
-	left: .63rem;
-	bottom: 3rem;
-}
 .mResume_Works_Hand_Painted_enter{
 	width: 100%;
 	height: 2.37rem;
@@ -511,12 +482,6 @@
     -ms-backdrop-filter: brightness(1) blur(30px);
     -moz-backdrop-filter: brightness(1) blur(30px);
     -webkit-backdrop-filter: brightness(1) blur(30px);
-	/*background: rgb(0,0,0,0.05);
-	backdrop-filter: brightness(1) blur(30px);
-    -o-backdrop-filter: brightness(1) blur(30px);
-    -ms-backdrop-filter: brightness(1) blur(30px);
-    -moz-backdrop-filter: brightness(1) blur(30px);
-    -webkit-backdrop-filter: brightness(1) blur(30px);*/
 }
 .mResume_Works_Hand_Painted_enter_inputbox{
 	width: 2.79rem;
@@ -535,25 +500,6 @@
 	font-weight: bold;
 	color: #007AFF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  footer-nav  */
 .mResume_footer_nav_box{
 	width:100%;
@@ -650,7 +596,7 @@
 	left: 1.9rem;
 }
 .mResume_content_con_company_name_arrow2{
-	left: 5.7rem;
+	left: 4.9rem;
 }
 
 /*  video标签不理想  */
