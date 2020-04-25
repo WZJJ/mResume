@@ -16,6 +16,7 @@ body{
     color:#333;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
+    background: #EFF0F7;
 }
 textarea:focus,input:focus,button:focus,a:focus{outline:none;}
 dl,dt,dd,ul,ol,li,p,input,img,h1,h2,h3,h4,h5,h6,div,button,strong,textarea,i,a,span{
