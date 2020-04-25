@@ -186,6 +186,7 @@
 	width: 100%;
 	height: auto;
 	display: none;
+
 }
 .mResume_Works_All_works,
 .mResume_Works_Hand_Painted{
@@ -223,8 +224,8 @@
 }
 .mResume_Works_All_works_img_left{
 	width:3.77rem;
-	background: url("../images/mWorks_Page_iMages/mResume_Works_All_works_img/mResume_Works_All_works_img_left.png") no-repeat;
-	background-size: 100% auto;
+	/*background: url("../images/mWorks_Page_iMages/mResume_Works_All_works_img/mResume_Works_All_works_img_left.png") no-repeat;*/
+	/*background-size: 100% auto;*/
 	animation: mResume_Works_All_works_img_left 70s linear infinite alternate;
 	-o-animation: mResume_Works_All_works_img_left 70s linear infinite alternate;
 	-ms-animation: mResume_Works_All_works_img_left 70s linear infinite alternate;
@@ -276,8 +277,8 @@
 	margin-left: .07rem;
 	margin-right: .07rem;
 	transform:translate(0,-22.34rem);
-	background: url("../images/mWorks_Page_iMages/mResume_Works_All_works_img/mResume_Works_All_works_img_center.png") no-repeat;
-	background-size: 100% auto;
+	/*background: url("../images/mWorks_Page_iMages/mResume_Works_All_works_img/mResume_Works_All_works_img_center.png") no-repeat;*/
+	/*background-size: 100% auto;*/
 	animation: mResume_Works_All_works_img_center 80s linear infinite alternate;
 	-o-animation: mResume_Works_All_works_img_center 80s linear infinite alternate;
 	-ms-animation: mResume_Works_All_works_img_center 80s linear infinite alternate;
@@ -326,8 +327,8 @@
 }
 .mResume_Works_All_works_img_right{
 	width:3.77rem;
-	background: url("../images/mWorks_Page_iMages/mResume_Works_All_works_img/mResume_Works_All_works_img_right.png") no-repeat;
-	background-size: 100% auto;
+	/*background: url("../images/mWorks_Page_iMages/mResume_Works_All_works_img/mResume_Works_All_works_img_right.png") no-repeat;*/
+	/*background-size: 100% auto;*/
 	animation: mResume_Works_All_works_img_right 60s linear infinite alternate;
 	-o-animation: mResume_Works_All_works_img_right 60s linear infinite alternate;
 	-ms-animation: mResume_Works_All_works_img_right 60s linear infinite alternate;
