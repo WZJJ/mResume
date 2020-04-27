@@ -1,0 +1,184 @@
+/* 
+* @Author: anchen
+* @Date:   2020-04-26 10:50:20
+* @Last Modified by:   anchen
+* @Last Modified time: 2020-04-27 17:31:14
+*/
+.Project_box{
+    width: 12.42rem;
+    height: auto;
+    display:block;
+    margin:0 auto;
+    overflow: hidden;
+}
+.Project_title{
+    width: 100%;
+    height: 1.4rem;
+    position: fixed;
+    left: 0;top: 0;
+    background: rgb(255,255,255,0.1);
+    backdrop-filter: brightness(1) blur(30px);
+    -o-backdrop-filter: brightness(1) blur(30px);
+    -ms-backdrop-filter: brightness(1) blur(30px);
+    -moz-backdrop-filter: brightness(1) blur(30px);
+    -webkit-backdrop-filter: brightness(1) blur(30px);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    z-index: 2;
+    line-height:1.4rem;
+    padding-left:.5rem;
+    font-size:.56rem;
+    font-weight:bold;
+    color:#222;
+}
+.Project_content{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+.Project_content_conbox{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    border-bottom:1px solid #D2D1D6;
+    margin-bottom: .3rem;
+    background:#fff;
+}
+.Project_content_con{
+    width:10.86rem;
+    height:auto;
+    margin:.78rem; 
+}
+.Project_content_con_img{
+    width:100%;
+    height:6.12rem;
+    overflow:hidden;
+    background:rgba(0, 0, 0, 0.03);
+    border-radius:.2rem;
+    margin-bottom:.5rem;
+}
+.Project_content_con_text{
+    width:100%;
+    height:auto;
+}
+.Project_content_con_type{
+    color:#D90D48;
+    font-size:.3rem;
+    font-weight:bold;
+    margin-bottom:.4rem;
+}
+.Project_content_con_title{
+    color:#000;
+    font-size:.46rem;
+    font-weight:bold;
+    margin-bottom:.6rem;
+}
+.Project_content_con_time{
+    color:rgba(0, 0, 0, 0.55);
+    font-size: .3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.Project_content_linkbox{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    border-bottom:1px solid #D2D1D6;
+    margin-bottom: .3rem;
+    background:#fff;
+}
+.Project_content_link{
+    width:auto;
+    height: 3.53rem;
+    overflow:hidden;
+    margin:.84rem;
+}
+.Project_content_link_img{
+    width:4.17rem;
+    height:3.53rem;
+    margin-right:.5rem;
+    display:inline-block;
+    float:left;
+}
+
+.Project_content_link_textbox{
+    width:6.07rem;
+    height:100%;
+    display:inline-block;
+}
+.Project_content_link_text_type{
+    color:#D90D48;
+    font-size:.3rem;
+    font-weight:bold;
+    margin-bottom:.4rem;
+}
+.Project_content_link_text_con{
+    font-size:.46rem;
+    font-weight:bold;
+}
+.Project_content_link_text_time{
+    color:rgba(0, 0, 0, 0.5);
+    font-size:.3rem;
+    margin-top:.6rem;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
