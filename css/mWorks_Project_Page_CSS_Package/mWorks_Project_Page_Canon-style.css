@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2020-04-27 16:09:14
 * @Last Modified by:   anchen
-* @Last Modified time: 2020-04-27 17:51:15
+* @Last Modified time: 2020-04-29 11:30:30
 */
 body{background: #fff;}
 .Project_Canon_box{
@@ -72,17 +72,55 @@ body{background: #fff;}
 .Project_Canon_content_banner_imgbox img{
     margin-bottom: .5rem;
 }
-.Project_Canon_content_banner_imgbox_prompt{
+.Project_Canon_content_banner_imgbox_promptbox{
     width: 11.46rem;
     height: 21.7rem;
-    background: red;
+    background: #fff;
     float: left;
+    position:relative;
 }
-
-
-
-
-
+.Project_Canon_content_banner_imgbox_prompt{
+    width:2rem;
+    height: 4.53rem;
+    font-size:.5rem;
+    font-weight:bold;
+    color:#ccc;
+    display: inline-block;
+    overflow:hidden;
+    position: absolute;
+    left:50%;margin-left: -1rem;
+    top:50%;margin-top: -2.265rem;
+}
+.Project_Canon_content_banner_imgbox_promptimg_top,
+.Project_Canon_content_banner_imgbox_promptimg_topbottom{
+    width:.63rem;
+    height:4.53rem;
+    float:left;
+}
+.Project_Canon_content_banner_imgbox_promptimg_top{
+    background:url('../../images/mWorks_Page_iMages/mResume_Works_All_works_img/Sliding_prompt_top.gif') no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+.Project_Canon_content_banner_imgbox_promptimg_topbottom{
+    background:url('../../images/mWorks_Page_iMages/mResume_Works_All_works_img/Sliding_prompt_top_bottom.gif') no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+.Project_Canon_content_banner_imgbox_prompt img{
+    float:left;
+}
+.Project_Canon_content_banner_imgbox_prompt_p{
+    width:1rem;
+    height:2.8rem;
+    float:left;
+}
+.Project_Canon_content_banner_imgbox_prompt_p p{
+    width:1rem;
+    height:.7rem;
+    line-height:.7rem;
+    text-align:center;
+}
 
 
 
