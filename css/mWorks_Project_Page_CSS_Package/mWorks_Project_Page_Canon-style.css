@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2020-04-27 16:09:14
 * @Last Modified by:   anchen
-* @Last Modified time: 2020-04-29 11:30:30
+* @Last Modified time: 2020-04-30 17:16:39
 */
 body{background: #fff;}
 .Project_Canon_box{
@@ -51,6 +51,7 @@ body{background: #fff;}
     text-align: center;
     line-height: .8rem;
 }
+/*  横幅  */
 .Project_Canon_content_bannerbox{
     width: 100%;
     height: 21.7rem;
@@ -61,7 +62,6 @@ body{background: #fff;}
 .Project_Canon_content_banner{
     width: 71.26rem;
     height: 100%;
-    float:left;
 }
 .Project_Canon_content_banner_imgbox{
     width: 11.46rem;
@@ -75,7 +75,6 @@ body{background: #fff;}
 .Project_Canon_content_banner_imgbox_promptbox{
     width: 11.46rem;
     height: 21.7rem;
-    background: #fff;
     float: left;
     position:relative;
 }
@@ -91,29 +90,19 @@ body{background: #fff;}
     left:50%;margin-left: -1rem;
     top:50%;margin-top: -2.265rem;
 }
-.Project_Canon_content_banner_imgbox_promptimg_top,
-.Project_Canon_content_banner_imgbox_promptimg_topbottom{
+.Project_Canon_content_banner_imgbox_promptimg_top{
     width:.63rem;
     height:4.53rem;
-    float:left;
-}
-.Project_Canon_content_banner_imgbox_promptimg_top{
     background:url('../../images/mWorks_Page_iMages/mResume_Works_All_works_img/Sliding_prompt_top.gif') no-repeat;
     background-size: 100% auto;
     background-position: center;
-}
-.Project_Canon_content_banner_imgbox_promptimg_topbottom{
-    background:url('../../images/mWorks_Page_iMages/mResume_Works_All_works_img/Sliding_prompt_top_bottom.gif') no-repeat;
-    background-size: 100% auto;
-    background-position: center;
-}
-.Project_Canon_content_banner_imgbox_prompt img{
     float:left;
 }
 .Project_Canon_content_banner_imgbox_prompt_p{
     width:1rem;
     height:2.8rem;
     float:left;
+    margin-top:.8rem;
 }
 .Project_Canon_content_banner_imgbox_prompt_p p{
     width:1rem;
@@ -121,36 +110,75 @@ body{background: #fff;}
     line-height:.7rem;
     text-align:center;
 }
+.Project_Canon_content_posterbox{
+    width:100%;
+    height:16rem;
+    margin-top: .9rem;
+    overflow: hidden;
+    overflow-x: auto;
+}
+.Project_Canon_content_poster{
+    width:148.2rem;
+    height:100%;
+}
+.Project_Canon_content_poster_imgbox{
+    width: 11.46rem;
+    height: 16rem;
+    margin-right:.5rem;
+    display:inline-block;
+    float:left;
+}
+.Project_Canon_content_poster img{
+    display:inline-block;
+    margin-right:.5rem;
+    float:left;
+}
+.Project_Canon_content_poster_imgbox_promptbox{
+    width: 11.46rem;
+    height: 16rem;
+    display:inline-block;
+    float:left;
+    position:relative;
+}
+.Project_Canon_content_poster_imgbox_prompt{
+    width:2rem;
+    height: 4.53rem;
+    font-size:.5rem;
+    font-weight:bold;
+    color:#ccc;
+    display: inline-block;
+    overflow:hidden;
+    position: absolute;
+    left:50%;margin-left: -1rem;
+    top:50%;margin-top: -2.265rem;
+}
+.Project_Canon_content_poster_imgbox_promptimg_topbottom{
+    width:.63rem;
+    height:4.53rem;
+    background:url('../../images/mWorks_Page_iMages/mResume_Works_All_works_img/Sliding_prompt_top_bottom.gif') no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    float:left;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Project_Canon_content_poster_imgbox_prompt_p{
+    width:1rem;
+    height:2.8rem;
+    float:left;
+    margin-top:.8rem;
+}
+.Project_Canon_content_poster_imgbox_prompt_p p{
+    width:1rem;
+    height:.7rem;
+    line-height:.7rem;
+    text-align:center;
+}
+.Project_Canon_content_Setbox{
+    width:11.46rem;
+    height:5rem;
+    margin-top:.9rem;
+    overflow:hidden;
+}
 
 
 
