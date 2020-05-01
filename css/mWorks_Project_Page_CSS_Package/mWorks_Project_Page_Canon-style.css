@@ -79,7 +79,7 @@ body{background: #fff;}
     position:relative;
 }
 .Project_Canon_content_banner_imgbox_prompt{
-    width:2rem;
+    width:3rem;
     height: 4.53rem;
     font-size:.5rem;
     font-weight:bold;
@@ -87,7 +87,7 @@ body{background: #fff;}
     display: inline-block;
     overflow:hidden;
     position: absolute;
-    left:50%;margin-left: -1rem;
+    left:50%;margin-left: -1.5rem;
     top:50%;margin-top: -2.265rem;
 }
 .Project_Canon_content_banner_imgbox_promptimg_top{
@@ -99,13 +99,13 @@ body{background: #fff;}
     float:left;
 }
 .Project_Canon_content_banner_imgbox_prompt_p{
-    width:1rem;
+    width:1.5rem;
     height:2.8rem;
     float:left;
     margin-top:.8rem;
 }
 .Project_Canon_content_banner_imgbox_prompt_p p{
-    width:1rem;
+    width:1.5rem;
     height:.7rem;
     line-height:.7rem;
     text-align:center;
@@ -141,7 +141,7 @@ body{background: #fff;}
     position:relative;
 }
 .Project_Canon_content_poster_imgbox_prompt{
-    width:2rem;
+    width:3rem;
     height: 4.53rem;
     font-size:.5rem;
     font-weight:bold;
@@ -149,7 +149,7 @@ body{background: #fff;}
     display: inline-block;
     overflow:hidden;
     position: absolute;
-    left:50%;margin-left: -1rem;
+    left:50%;margin-left: -1.5rem;
     top:50%;margin-top: -2.265rem;
 }
 .Project_Canon_content_poster_imgbox_promptimg_topbottom{
@@ -162,13 +162,13 @@ body{background: #fff;}
 }
 
 .Project_Canon_content_poster_imgbox_prompt_p{
-    width:1rem;
+    width:1.5rem;
     height:2.8rem;
     float:left;
     margin-top:.8rem;
 }
 .Project_Canon_content_poster_imgbox_prompt_p p{
-    width:1rem;
+    width:1.5rem;
     height:.7rem;
     line-height:.7rem;
     text-align:center;
